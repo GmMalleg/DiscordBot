@@ -1,4 +1,4 @@
-# Discord 1337 Bot 🤖
+# Discord Malleg Dice Roller Bot 🤖
 
 A simple Discord bot that reads and evaluates dice expression as of now it supports only simple arithmetic formulas and the XdY notation
 
