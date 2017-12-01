@@ -1,8 +1,8 @@
 # Discord 1337 Bot 🤖
 
-A simple Discord bot that replies "damn it" whenever anyone says "1337"
+A simple Discord bot that reads and evaluates dice expression as of now it supports only simple arithmetic formulas and the XdY notation
 
-![](https://cdn.glitch.com/f1b80a31-0733-40fb-a0dd-44c8c80c155d%2Fscreenshot.png?1506425519756)
+the code wase based on a tutorial bot with a pubblic domain license that replyed damn it to anyone that wrote 1337
 
 ## Prerequisites
 
