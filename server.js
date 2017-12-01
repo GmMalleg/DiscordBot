@@ -15,8 +15,8 @@ bot.on('ready', () => {                                // When the bot is ready
 });
  
 bot.on('messageCreate', (msg) => {                     // When a message is created
-  
-    try{var expression=msg.content.match(/{(.*)}/)[0].slice(1,-1)}catch(err){var expression=false}; //try to extract the content of the first pair of curly brackets
+    var container=/\[(.*?)\]/;    //regex for extracting the expression from a post used to be /{(.*)}/
+    try{var expression=msg.content.match(container)[1]}catch(err){var expression=false}; //try to extract the content of the first pair of curly brackets
     var notation= /(\d+)?d(\d+)/i;
       if(expression) {                 // If the message content includes any expression between curly brackets
         var index=0;
